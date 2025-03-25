@@ -1177,14 +1177,13 @@ scrollbar
 frame
 
 ------------------------------------------- */
-.mil-logo {
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 100%;
+.mil-logo img{
+  max-width: 150px;
+  height: auto;
 }
 
 @media screen and (max-width: 992px) {
-  .mil-logo {
+  .mil-logo img{
     font-size: 36px;
   }
 }
@@ -1228,7 +1227,7 @@ frame
     -webkit-backdrop-filter: blur(8px);
             backdrop-filter: blur(8px);
   }
-  .mil-frame .mil-frame-top .mil-logo {
+  .mil-frame .mil-frame-top .mil-logo img{
     color: rgb(255, 255, 255);
   }
   .mil-frame .mil-frame-top .mil-menu-btn span, .mil-frame .mil-frame-top .mil-menu-btn span:after, .mil-frame .mil-frame-top .mil-menu-btn span:before {
@@ -1281,7 +1280,7 @@ frame
       -ms-flex-align: center;
           align-items: center;
 }
-.mil-frame-top .mil-logo {
+.mil-frame-top .mil-logo img{
   pointer-events: all;
   color: rgb(0, 0, 0);
 }
@@ -1383,7 +1382,7 @@ menu
     display: none;
   }
 }
-.mil-menu-frame .mil-frame-top .mil-logo {
+.mil-menu-frame .mil-frame-top .mil-logo img{
   color: rgb(255, 255, 255);
 }
 .mil-menu-frame .mil-frame-top .mil-menu-btn span, .mil-menu-frame .mil-frame-top .mil-menu-btn span:after, .mil-menu-frame .mil-frame-top .mil-menu-btn span:before {
